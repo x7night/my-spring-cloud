@@ -1,0 +1,13 @@
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/x7night/my-spring-cloud.git
+          username: x7night
+          password: xuzhe8231657
+server:
+  port: 9001
