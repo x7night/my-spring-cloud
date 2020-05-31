@@ -1,0 +1,8 @@
+{
+    "java.dependency.syncWithFolderExplorer": true,
+    "java.dependency.packagePresentation": "flat",
+    "java.dependency.refreshDelay": 1000,
+    "java.codeGeneration.generateComments": true,
+    "java.signatureHelp.enabled": true,
+    "java.configuration.updateBuildConfiguration": "automatic"
+}

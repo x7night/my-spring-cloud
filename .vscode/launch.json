@@ -1,0 +1,74 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "<config-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.configserver.DemoApplication",
+            "projectName": "config-server",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "<eureka-client>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.App",
+            "projectName": "eureka-client",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "<eureka-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.eurekaservice.DemoApplication",
+            "projectName": "eureka-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "<eureka-consumer-ribbon-hystrix>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.eurekaconsumerribbonhystrix.DemoApplication",
+            "projectName": "eureka-consumer-ribbon-hystrix",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "<hystrix-dashboard>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.hystrixdashboard.DemoApplication",
+            "projectName": "hystrix-dashboard",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "<eureka-consumer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.eurekaconsumer.DemoApplication",
+            "projectName": "eureka-consumer",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "<api-gateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.apigateway.DemoApplication",
+            "projectName": "api-gateway",
+            "args": ""
+        }
+    ]
+}
